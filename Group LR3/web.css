@@ -1,0 +1,269 @@
+body{
+	margin:0px auto;
+	padding:0px auto;
+	background: #e3e7f1;
+	display:block;
+	max-width: 100%;
+	height: auto ;
+	overflow-x: hidden;
+}
+.container{
+	width: 100%;
+	display:flex;
+	padding:14px 8%;
+	margin:0px;
+	padding:0px; 
+	border:0px;
+	position:sticky;
+	justify-content: space-evenly;
+	font-size:14px;
+	align-items: center;
+	position: sticky;
+	top:0px;
+	background:#096411;
+	color: #d9eeec;
+	box-shadow: 1px 1px 3px 5px #ff9100;
+	z-index: 3;
+}
+.container ul{	
+	position: relative;
+	list-style :none;
+	padding:0px;
+	margin:0px;
+	transition:0.50s;
+	border:0px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+.container a{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color:#d9eeec;	
+}
+.container ul:hover{
+	background:none;
+	transform:scale(1.3);
+}
+.container a:hover{
+	background:none;
+	transform:scale(1.3);
+	color: #ff9100;
+}
+.title1{
+	padding:3px;
+	margin-left: -120px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.subtitle{
+	position: relative;
+	font-size: 14px;
+	margin-bottom: 0px;
+	left: -115px;
+	top:-30px;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+}
+.lines{
+	position: relative;
+	margin: 0px;
+	top: -25px;
+	left:-115px ;
+}
+.f1{
+	border:0px;
+	margin:0px;
+	padding:50px 30px;
+	background:#e3e7f1;
+	text-align: center;
+	list-style: none;
+	box-shadow: 3px 3px #888888;
+	font-size: 30px;
+	font-family: 'Righteous', cursive;
+}
+.container2{
+	position: relative;
+	background-size: cover;
+	padding: 100px;
+	background-image: url('images/man-standing-on-mountain-against-sky-314703.jpg');
+	background-repeat: no-repeat;
+	z-index: 1;
+	transform: scale(50%,50%);
+	display: inherit;
+}
+.container3{
+	padding: 0px;
+	position: relative;
+	max-width: 100%;
+	background-color: #e0e0e0;
+}
+.header{
+	font-size: 50px;
+	font-weight: 900;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	letter-spacing: 2px;
+	max-width: 100%;
+	margin-top: 100px;
+}
+.content{
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+	font-style: normal;
+	font-family:'Poppins', sans-serif ;
+	top: -100px;
+	padding: 200px;
+	margin: 50px;
+	margin-top: -90px;
+	text-align: center;
+}
+.learn{
+	border:2px solid #096411;
+	background-color: none;
+	padding:10px;
+	cursor: pointer;
+	width: 250px;
+	font-size:  18px;
+	transition: ease-in-out .25s;
+	border-radius: 14px;
+	outline: none;
+}
+.learn:hover{
+	transform: scale(1.1);
+	background: #096411;
+	color: #ff9100;
+}
+.tour{
+	position:relative;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 14px;
+    background-color: none;
+    transition: .25s;
+    transform:translate(-50% -50%) ;
+    background: none;
+    border-color: #ffffff;
+    padding: 10px;
+    box-shadow: none;
+    margin: 30px 14px;
+	top: 100px;
+	left: 14%;
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    color: #000000;
+    border-color:#a8a8a8;
+	background-color:rgba(255, 255, 255, 0.26);
+	text-align:center;
+	font-size: 18px;
+	font-weight: 500;
+}
+.par1{
+	position: absolute;
+	left: 41.3%;
+	margin-top:-190px;
+	font-size: 50px;
+	z-index: 2;
+	color: #ffffff;	 
+	font-weight:700;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+}
+.par2{
+	position: absolute;
+	top:120px;
+	left: 41%;
+	font-size: 50px;
+	z-index: 2;
+	color: #ffffff;
+	font-weight:700;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+}
+.par3{
+	position: absolute;
+	top:165px;
+	left:41%;
+	font-size:50px;
+	font-weight:700;
+	z-index: 2 ;
+	color:#ff9100;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+}
+.img1{
+	position: relative;
+	width: 160px;
+	top:20px;
+	left: 4%;
+	z-index: -1;
+}
+.img2{
+	position: relative;
+	width: 170px;
+	top:20px;
+	left: 6%;
+	margin-top:0px;
+	z-index: -1;
+}
+.lists{
+	padding: 10px;
+	border: 2px solid #000000;
+	margin: 100px;
+}
+.lists table{
+	border: 2px solid #000000;
+}
+.lists td{
+	border: 1px solid #000000;
+	text-align: center;
+	padding: 5px;
+	background-color:#096411;
+	color: #ffffff;	
+}
+.button{
+	border:2px solid #096411;
+	outline:none;
+	padding: 10px;
+	cursor:pointer;
+	width: 250px;
+	transition:ease-in-out .25s;
+	font-size: 18px;
+	border-radius:14px;
+}
+.info{
+	font-family:'poppins',sans-serif;
+	font-weight:600;
+	letter-spacing: 2px;
+}
+.container4{
+	border:0px;
+    padding:50px;
+	background:#096411;
+	text-align: center;
+    list-style: none;
+    bottom: 0px;
+    top: 100%;
+	cursor: auto;
+	position: static;
+	color: aliceblue;
+	font-family: 'poppins',sans-serif;
+}
+
+/*Animations */
+.tour:hover{
+    transform: scale(1.1);
+	border-color:#096411;
+	color:#ff9100;
+    background: #096411;
+}
+.button:hover{
+	transform: scale(1.1);
+	border-color:#096411;
+	color:#ff9100;
+	background:#096411;
+}

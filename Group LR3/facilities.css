@@ -1,0 +1,294 @@
+body{
+    border: 0px auto;
+    margin: 0px auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    overflow-x: auto;
+}
+.container1{
+	width: 100%;
+	display:flex;
+	padding:14px 8%;
+	margin:0px;
+	padding:0px; 
+	border:0px;
+	position:sticky;
+	justify-content: space-evenly;
+	font-size:14px;
+	align-items: center;
+	position: sticky;
+	top:0px;
+	background:#096411;
+	color: #d9eeec;
+	box-shadow: 1px 1px 3px 5px #ff9100;
+    z-index: 3;		
+}
+.container1 ul{	
+	position: relative;
+	list-style :none;
+	padding:0px;
+	margin:0px;
+	transition:0.50s;
+	border:0px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+.container1 a{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color:#d9eeec;	
+}
+.container1 ul:hover{
+	background:none;
+	transform:scale(1.3);
+}
+.container a:hover{
+	background:none;
+	transform:scale(1.3);
+	color: #ff9100;
+}
+.title1{	
+	padding:3px;
+	margin-left: -120px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+.subtitle{
+	position: relative;
+	font-size: 14px;
+	margin-bottom: 0px;
+	left: -115px;
+	top:-30px;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+}
+.lines{
+	position: relative;
+	margin: 0px;
+	top: -25px;
+	left:-115px ;
+}
+.par{
+    padding: 100px;
+    margin: 50px;
+    top: 25%;
+}
+.ft1  {
+    font-family:'poppins',sans-serif;
+    margin-top: 400px;
+	border:0px;
+    padding:20px;
+	background:#096411;
+	text-align: center;
+    list-style: none;
+    bottom: 0px;
+    top: 100%;
+	cursor: auto;
+	position: static;
+    color: aliceblue;
+}
+.floors{
+    position: relative;
+    background-image: url("images/bilyonaryo_jude.jpg");
+    background-repeat: no-repeat;
+    background-size: 1390px 400px;
+    max-width: 100%;
+    align-content: center;
+    transform: translate(50% 50%);
+    padding: 100px ;
+    margin: 0px;
+    z-index: 1;
+    text-align: center;
+}
+.f-content{
+    align-content: center;
+    padding: 0px auto;
+    margin:0px auto;
+    position: relative;
+    margin-top: 30%;
+    max-width: 100%;
+    text-align: center;
+}
+.paragraph{
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    color: #ff9100;
+    font-size: 20px;
+    z-index: -1;
+}
+.sub_par{
+    position: relative;
+    margin: 10px;
+    top: 10%;
+    letter-spacing: 3px;
+    font-family: 'poppins', sans-serif;
+    font-size: 50px;
+    font-weight:900;
+}
+.floor1{
+    position: relative;
+    margin: 30px 40px;
+    top: 50%;
+    margin-left: 200px;
+    padding: 20px 100px;
+    left:10%;
+    border-radius: 14px;
+    background: none;
+    border:3px solid #096411;
+    transform: translate(-50% -50%);
+    transition: .25s ease-in-out;
+    outline:none;
+    font-size:16px;
+    cursor: pointer;
+}
+.floor2{
+    position: absolute;
+    margin:30px 40px;
+    margin-top: 200px;
+    left: 75px;
+    padding: 19px 100px;
+    top: 24%;
+    border-radius: 14px;
+    background: none;
+    border: 3px solid #096411;
+    transform: translate(-50% -50%);
+    transition: .25s ease-in-out;
+    outline: none;
+    font-size:16px;
+    cursor: pointer;
+}
+.floor3{
+    position: absolute;
+    margin:30px 40px;
+    padding: 19px 103px;
+    left:75px;
+    top:120%;
+    border-radius: 14px;
+    border: 3px solid;
+    background: none;
+    border-color: #096411;
+    transform: translate(-50% -50%);
+    transition: .25s ease-in-out;
+    outline:none;
+    font-size:16px;
+    cursor: pointer;
+}
+.floor4{
+    position: absolute;
+    margin:30px 40px;
+    padding: 19px 103px;
+    left:75px;
+    top:155%;
+    border-radius: 14px;
+    background: none;
+    border:3px solid #096411;
+    transform: translate(-50% -50%);
+    transition: .25s ease-in-out;
+    outline:none;
+    font-size:16px;
+    cursor: pointer;
+}
+.floor5{
+    position: absolute;
+    margin:30px 40px;
+    padding: 19px 113px;
+    left:64.5%;
+    top: 85%;
+    border-radius: 14px;
+    background: none;
+    border:3px solid #096411;
+    transform: translate(-50% -50%);
+    transition: .25s ease-in-out;
+    outline:none;
+    font-size:16px;
+    cursor: pointer;
+}
+.floor6{
+    position: relative;
+    margin:30px 40px;
+    padding: 19px 113px;
+    left:7.5%;
+    top:170px;
+    border-radius: 14px;
+    border: 3px solid;
+    background: none;
+    border-color: #096411;
+    transform: translate(-50% -50%);
+    transition: .25s ease-in-out;
+    outline:none;
+    font-size:16px;
+    cursor: pointer;
+}
+.floor7{
+    position: absolute;
+    top: 155%;
+    left: 65%;
+    margin:30px 40px;
+    padding: 19px 113px;
+    border-radius: 14px;
+    border: 3px solid;
+    background: none;
+    border-color: #096411;
+    transform: translate(-50% -50%);
+    transition: .25s ease-in-out;
+    outline:none;
+    font-size:16px;
+    cursor: pointer;
+}
+.sub2{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/*Buttons Animations*/
+.floor1:hover{
+    transform: scale(1.1);
+    background-color:#096411;
+    border-color:#096411;
+    color: #ff9100;
+}
+.floor2:hover{
+    transform: scale(1.1);
+    background-color:#096411;
+    border-color:#096411;
+    color: #ff9100;
+}
+.floor3:hover{
+    transform: scale(1.1);
+    background-color:#096411;
+    border-color:#096411;
+    color: #ff9100;
+}
+.floor4:hover{
+    transform: scale(1.1);
+    background-color:#096411;
+    border-color:#096411;
+    color: #ff9100;
+}
+.floor5:hover{
+    transform: scale(1.1);
+    background-color:#096411;
+    border-color:#096411;
+    color: #ff9100;
+}
+.floor6:hover{
+    transform: scale(1.1);
+    background-color:#096411;
+    border-color:#096411;
+    color: #ff9100;
+}
+.floor7:hover{
+    transform: scale(1.1);
+    background-color:#096411;
+    border-color:#096411;
+    color: #ff9100;
+}
